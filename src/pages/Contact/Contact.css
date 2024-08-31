@@ -1,0 +1,229 @@
+.centainer{
+    background-color:rgb(192, 177, 192) ;
+    overflow: hidden;
+    text-align: center;
+   
+}
+.title{
+    font-size:2.5rem;
+}
+.tag{
+    font-size:1.6rem;
+}
+.img{
+     height:12rem;
+     width:12rem;
+     box-shadow: 5px 5px 5px 5px black;
+     border-radius:1rem;
+}
+
+.add{
+    font-size:1.5rem;
+}
+.desc{
+    font-size:1rem;
+}
+.t2{
+    font-size:3rem;
+    color:black;
+    margin: 0 auto;
+    
+}
+.formcont{
+    overflow: hidden;
+}
+.table{
+    margin-left:5rem;
+}
+.label{
+    font-size:1.4rem;
+    color:white;
+}
+.input{
+    box-shadow:1px 1px 1px black;
+    padding:0.2rem;
+}
+.txtarea{
+    box-shadow:1px 1px 1px black;
+    resize:none;
+    padding:0.2rem;
+    
+}
+.btn{
+    box-shadow:1px 1px 1px black;
+    margin-left:3vw;
+    width:8rem;
+    height:3rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1.5rem;
+    margin-top:0.5rem;
+    border-radius:1rem;
+}
+
+
+.out{
+    display:flex;
+    overflow: hidden;
+}
+
+.text1{
+    font-size:1.6rem;
+    padding:0.5rem;
+}
+.div1{
+    width:47rem;
+    padding:1rem;
+}
+
+.div2{
+    background-color: rgb(141, 143, 145);
+    box-shadow: 8px 8px 8px 8px black;
+    display:inline-block;
+    overflow:hidden;
+    width:30rem;
+    height:39rem;
+    border-radius:1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:4rem;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+}
+
+
+  @media screen and (min-width: 320px) and (max-width: 426px) {
+    .out{
+        flex-direction:column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .text1{
+        font-size:0.76rem !important;
+        padding: auto;
+    }
+    .tag{
+        font-size:1rem;
+        font-weight:bold;
+    }
+    .o2{
+        margin:auto;
+    }
+    .img{
+        height:9rem;
+        width:9rem;
+        box-shadow: 5px 5px 5px 5px black;
+        border-radius:1rem;
+   }
+    .div2{
+        width:17rem !important;
+        height: 28rem !important;
+        margin-left:0.5rem !important;
+    }
+    .table{
+        margin-left:0.5rem;
+    }
+    .div1{
+        width:25rem;
+    }
+    .label{
+        font-size:0.9rem;
+        color:white;
+    }
+    .t2{
+        font-size:1.2rem;
+    }
+    .btn{
+        box-shadow:1px 1px 1px black;
+        margin-left:3vw;
+        width:5rem;
+        height:2rem;
+        color:white; 
+        background-color:blueviolet;
+        font-size:1rem;
+        margin-top:0.5rem;
+        border-radius:1rem;
+    }
+    .add{
+        color:#791dae;
+    }
+    .desc{
+        font-size:0.7rem;
+    }
+      
+    }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .text1{
+        font-size: 1.13rem;
+    }
+    .tag{
+        font-size: 1.2rem;
+    }
+    .add{
+        font-size:1.2rem;
+    }
+    
+    .desc{
+        font-size:0.9rem;
+    }
+    .div1{
+        width:40rem;
+    }
+    .div2{
+        margin-top:2rem;
+        width:42rem;
+        height:40rem;
+        margin:2rem;
+    }
+    .table{
+        margin-top:2rem;
+        margin-left:1rem;
+        margin-bottom:4rem;
+    }
+    .img{
+        height:9rem;
+        width:9rem;
+        box-shadow: 5px 5px 5px 5px black;
+        border-radius:1rem;
+   }
+   .t2{
+    font-size:2.5rem;
+   }
+   .label{
+    font-size:1.2rem;
+   }
+   .btn{
+    box-shadow:1px 1px 1px black;
+    margin-left:3vw;
+    width:6rem;
+    height:3rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1.3rem;
+    margin-top:0.5rem;
+    border-radius:1rem;
+}
+}
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .div1{
+            width:43rem !important;
+            padding:1rem;
+        }
+        .div2{
+            width:40rem;
+            height:45rem;
+            margin-right:2rem;
+            margin-top:3.3rem;
+        }
+        .label{
+            font-size:1.5rem;
+           }    
+           .table{
+            margin-top:2.5rem;
+            margin-left:3rem;
+            margin-bottom:6rem;
+        }  
+      }

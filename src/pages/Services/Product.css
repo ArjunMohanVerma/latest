@@ -1,0 +1,32 @@
+.product--image{
+    height:15rem;
+    width:15rem;
+    margin:2rem;
+    border-radius: 1rem;
+    /* box-shadow: 5px 5px 5px 5px rgb(44, 44, 44); */
+    border: 3px solid grey;
+}
+.product--image:hover{
+    transform: scale(1.15);
+    transition-duration: 1s;
+    border: 3px solid grey;
+}
+.desk{
+    display:none;
+    height:28rem;
+    color:black;
+}
+.ton{
+    box-shadow:1px 1px 1px black;
+    margin-left:3vw;
+    width:8rem;
+    height:3rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1rem;
+    margin-top:1.9rem;
+    border-radius:1rem;
+}
+.hg{
+    color:#791dae;
+}

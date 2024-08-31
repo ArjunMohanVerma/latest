@@ -1,0 +1,75 @@
+.ou{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  /* background-color:rgb(158, 150, 158); */
+  background: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  
+}
+.lgin{
+  font-weight: bold;
+}
+.b{
+  margin-left:9rem;
+}
+ .addser {
+  background-color: white;
+  width: 35%;
+  height:35rem;
+  
+  /* margin in top and bottom will be 50px  */
+  /* left and right auto  */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 8px 8px black;
+
+  
+}
+.addserform .inputp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.par{
+  color:blue;
+}
+.l{
+  text-align:left;
+  font-weight: bold;
+}
+
+.addserform .inputp label {
+  margin-top: 10px;
+}
+
+.addserform .inputp input {
+  margin-top: 5px;
+  padding: 10px;
+} 
+/* .tn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.inputp button {
+  margin-top: 10px;
+}
+.ln {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ln .btn.btn-primary {
+  width: 50%;
+}
+
+.addser h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size:2rem;
+  color: darkcyan;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,46 @@
+.crd:hover {
+    box-shadow: 10px 10px 20px 10px rgba(24, 24, 24, 0.273) !important;
+    transition: all 0.3s linear !important;
+   
+  }
+  .bak{
+    background-color: rgb(205, 211, 208);
+    margin:1rem;
+    border:1px black;
+  }
+  .crd-body {
+    padding: 2rem 0 !important;
+    text-align: center;
+  }
+  
+  .crd-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .tn{
+    color:blue;
+    font-weight:bold;
+
+  }
+  
+  .overflow {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .crd-img-top {
+    transform: scale(1);
+    transition: all 0.6s ease-in-out;
+    height:10rem;
+    width:16rem;
+    padding:1rem;
+    
+  }
+  
+  .crd-img-top:hover {
+    transform: scale(1.2) !important;
+    padding:1rem !important;
+  }
